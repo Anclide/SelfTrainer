@@ -3,18 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A616D8FC0642BF3FD5A026 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2FFD2D89C53946F817D0A8 /* MainPresenter.swift */; };
+		1A0D14BC9A0EC6AD6166B076 /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DCCF5CA90D75C54190E628 /* MainPresenterTests.swift */; };
+		346CC34AFE8CFFE350787C47 /* TrainingsListViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFF14156AD4063C377FFF4 /* TrainingsListViewOutput.swift */; };
+		36295F8C668726D2D1A87F5F /* TrainingsListConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79147DE3A558F4C7A69965A0 /* TrainingsListConfiguratorTests.swift */; };
+		3B2525A132B057BC7838D7D7 /* MainInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C1D4D46C88898D7B75C6E6 /* MainInitializer.swift */; };
+		4091D6B2D66C63EE66F484FE /* MainInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA15D701B9621F49B74960E /* MainInteractorInput.swift */; };
+		41D680918F2C8E38F49F8EA9 /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68989B4EB11A906FD39A70 /* MainConfigurator.swift */; };
+		4F55F597E5CFAE22A46D63F7 /* MainRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E1DCF09301F1796AD453A0 /* MainRouterTests.swift */; };
+		53585228B38ADC5648546392 /* MainInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B1C06EA816097E7E8F2C28 /* MainInteractorTests.swift */; };
+		552390B454C5C22B68D7DFFE /* MainViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A552E273D5799D350CA77F /* MainViewOutput.swift */; };
+		637FCEC2159B90D9A46EDD9C /* TrainingsListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECAA9677BA0D5989BE681A9 /* TrainingsListInteractorInput.swift */; };
+		6B83F742B93BAE2205DFC739 /* TrainingsListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2E64031C7907587C7AE349 /* TrainingsListInteractorTests.swift */; };
+		6BAB9CDF55D0AFB7D2577AAC /* MainViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2488616DBE0B9A318DEC7 /* MainViewInput.swift */; };
+		6E96F402EF8DA2A19F906A0C /* TrainingsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28F891DBE139BB23B616044 /* TrainingsListViewController.swift */; };
+		74E7808E07A895ACC7831D9F /* TrainingsListViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EB41C8BDE3FE01CA342923 /* TrainingsListViewInput.swift */; };
+		758964F953593E1ED9581151 /* MainInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D53322140E1C67676BB4C /* MainInteractorOutput.swift */; };
+		76F5ED83F900A52F5753A677 /* MainRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB3ADBDFA2BB36FA3CE9EBD /* MainRouterInput.swift */; };
+		7BC70BCC06CC918172FA0EA3 /* TrainingsListRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E78F792B5B00EDCB2D2FB6 /* TrainingsListRouterTests.swift */; };
 		7DBC74662173C9E900C48D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC74652173C9E900C48D16 /* AppDelegate.swift */; };
-		7DBC74682173C9E900C48D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC74672173C9E900C48D16 /* ViewController.swift */; };
 		7DBC746B2173C9E900C48D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DBC74692173C9E900C48D16 /* Main.storyboard */; };
 		7DBC746E2173C9E900C48D16 /* selftrainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC746C2173C9E900C48D16 /* selftrainer.xcdatamodeld */; };
 		7DBC74702173C9EA00C48D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBC746F2173C9EA00C48D16 /* Assets.xcassets */; };
 		7DBC74732173C9EA00C48D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DBC74712173C9EA00C48D16 /* LaunchScreen.storyboard */; };
 		7DBC747E2173C9EA00C48D16 /* selftrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC747D2173C9EA00C48D16 /* selftrainerTests.swift */; };
 		7DBC74892173C9EA00C48D16 /* selftrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC74882173C9EA00C48D16 /* selftrainerUITests.swift */; };
+		7DBC749B2173D38600C48D16 /* TrainingsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DBC749A2173D38600C48D16 /* TrainingsList.storyboard */; };
+		80F6B83EDD804090DEE704CB /* TrainingsListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EA475EDF30AFBBD8F46D29 /* TrainingsListViewTests.swift */; };
+		838E186B4F0AB2420D2B183B /* TrainingsListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60481D4752A9677E0960049 /* TrainingsListPresenterTests.swift */; };
+		84760B91C23527006C05959B /* MainViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A33B010E59D7DAB0E6B842 /* MainViewTests.swift */; };
+		878602BEA095E83CA15B2B49 /* TrainingsListInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF603F99CF4427F4BB7FD69 /* TrainingsListInteractorOutput.swift */; };
+		8A0CEDAD071802691E9F4336 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4413E97396C2EE10410EF418 /* MainViewController.swift */; };
+		8DEA3B99D63AB26A26455030 /* TrainingsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B9EE8C7769F01A4C37B402 /* TrainingsListInteractor.swift */; };
+		97ECF114F563E73EE7D64E17 /* TrainingsListRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A946FF6FEB2A3B1CC631DF /* TrainingsListRouterInput.swift */; };
+		AA59C07CABBD84039CA7BC53 /* TrainingsListInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81186ABD34A8FD503A3906 /* TrainingsListInitializer.swift */; };
+		BB878043388B7EDC3B373136 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9723693EF8843ECB598D70B3 /* MainRouter.swift */; };
+		C2E85C1B9CAB459C33F2E8DF /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF0B21B0B784F64F94663A /* MainInteractor.swift */; };
+		C998FF43B5ABD46119989235 /* MainConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8CF009DFC568FE6705B22 /* MainConfiguratorTests.swift */; };
+		D5A1EFE099253A78F8AC239A /* TrainingsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151DD90F2D87F2D07BB1774 /* TrainingsListRouter.swift */; };
+		E645D4CFF1E9BFA712AC6D29 /* TrainingsListModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45446E3361BB213179B37C5C /* TrainingsListModuleInput.swift */; };
+		E814B6F8F6C34272503073E6 /* TrainingsListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F3F05199817A6E4F119DFC /* TrainingsListConfigurator.swift */; };
+		FC176F552E3996BBBEA895A2 /* MainModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F88185EA56145FFDDE5BF7 /* MainModuleInput.swift */; };
+		FF47A2DC41BB6DC259427FA3 /* TrainingsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9A403C68B40D4D7B6A75B /* TrainingsListPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +69,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0151DD90F2D87F2D07BB1774 /* TrainingsListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListRouter.swift; sourceTree = "<group>"; };
+		27C1D4D46C88898D7B75C6E6 /* MainInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInitializer.swift; sourceTree = "<group>"; };
+		30F9A403C68B40D4D7B6A75B /* TrainingsListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListPresenter.swift; sourceTree = "<group>"; };
+		35F2488616DBE0B9A318DEC7 /* MainViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewInput.swift; sourceTree = "<group>"; };
+		3C81186ABD34A8FD503A3906 /* TrainingsListInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListInitializer.swift; sourceTree = "<group>"; };
+		4413E97396C2EE10410EF418 /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		45446E3361BB213179B37C5C /* TrainingsListModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListModuleInput.swift; sourceTree = "<group>"; };
+		4FB3ADBDFA2BB36FA3CE9EBD /* MainRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouterInput.swift; sourceTree = "<group>"; };
+		53EA475EDF30AFBBD8F46D29 /* TrainingsListViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListViewTests.swift; sourceTree = "<group>"; };
+		5BF8CF009DFC568FE6705B22 /* MainConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainConfiguratorTests.swift; sourceTree = "<group>"; };
+		60DCCF5CA90D75C54190E628 /* MainPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
+		69A946FF6FEB2A3B1CC631DF /* TrainingsListRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListRouterInput.swift; sourceTree = "<group>"; };
+		73B1C06EA816097E7E8F2C28 /* MainInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorTests.swift; sourceTree = "<group>"; };
+		76BFF14156AD4063C377FFF4 /* TrainingsListViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListViewOutput.swift; sourceTree = "<group>"; };
+		79147DE3A558F4C7A69965A0 /* TrainingsListConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListConfiguratorTests.swift; sourceTree = "<group>"; };
+		7CA15D701B9621F49B74960E /* MainInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorInput.swift; sourceTree = "<group>"; };
 		7DBC74622173C9E900C48D16 /* selftrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selftrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBC74652173C9E900C48D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DBC74672173C9E900C48D16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DBC746A2173C9E900C48D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DBC746D2173C9E900C48D16 /* selftrainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = selftrainer.xcdatamodel; sourceTree = "<group>"; };
 		7DBC746F2173C9EA00C48D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +98,25 @@
 		7DBC74842173C9EA00C48D16 /* selftrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selftrainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBC74882173C9EA00C48D16 /* selftrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selftrainerUITests.swift; sourceTree = "<group>"; };
 		7DBC748A2173C9EA00C48D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DBC749A2173D38600C48D16 /* TrainingsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TrainingsList.storyboard; sourceTree = "<group>"; };
+		81E78F792B5B00EDCB2D2FB6 /* TrainingsListRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListRouterTests.swift; sourceTree = "<group>"; };
+		85E1DCF09301F1796AD453A0 /* MainRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouterTests.swift; sourceTree = "<group>"; };
+		9723693EF8843ECB598D70B3 /* MainRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		A4B9EE8C7769F01A4C37B402 /* TrainingsListInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListInteractor.swift; sourceTree = "<group>"; };
+		A7A552E273D5799D350CA77F /* MainViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewOutput.swift; sourceTree = "<group>"; };
+		AAF603F99CF4427F4BB7FD69 /* TrainingsListInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListInteractorOutput.swift; sourceTree = "<group>"; };
+		AD2E64031C7907587C7AE349 /* TrainingsListInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListInteractorTests.swift; sourceTree = "<group>"; };
+		B2F3F05199817A6E4F119DFC /* TrainingsListConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListConfigurator.swift; sourceTree = "<group>"; };
+		B60481D4752A9677E0960049 /* TrainingsListPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListPresenterTests.swift; sourceTree = "<group>"; };
+		BECAA9677BA0D5989BE681A9 /* TrainingsListInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListInteractorInput.swift; sourceTree = "<group>"; };
+		C1F88185EA56145FFDDE5BF7 /* MainModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleInput.swift; sourceTree = "<group>"; };
+		CF2FFD2D89C53946F817D0A8 /* MainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		D28F891DBE139BB23B616044 /* TrainingsListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListViewController.swift; sourceTree = "<group>"; };
+		D3AF0B21B0B784F64F94663A /* MainInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		EA6D53322140E1C67676BB4C /* MainInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainInteractorOutput.swift; sourceTree = "<group>"; };
+		F4A33B010E59D7DAB0E6B842 /* MainViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewTests.swift; sourceTree = "<group>"; };
+		F5EB41C8BDE3FE01CA342923 /* TrainingsListViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrainingsListViewInput.swift; sourceTree = "<group>"; };
+		FB68989B4EB11A906FD39A70 /* MainConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +144,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CB7090358FF7AAAE36C2EA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DBC74992173D33E00C48D16 /* Storyboard */,
+				F5EB41C8BDE3FE01CA342923 /* TrainingsListViewInput.swift */,
+				76BFF14156AD4063C377FFF4 /* TrainingsListViewOutput.swift */,
+				D28F891DBE139BB23B616044 /* TrainingsListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E8B3E3AD9EAB512B14F3DDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DBC74962173D05700C48D16 /* Storyboard */,
+				35F2488616DBE0B9A318DEC7 /* MainViewInput.swift */,
+				A7A552E273D5799D350CA77F /* MainViewOutput.swift */,
+				4413E97396C2EE10410EF418 /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B1E3BD57B2B4007357FBE20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4A33B010E59D7DAB0E6B842 /* MainViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B5D1BEA39024F885975DFFC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				60DCCF5CA90D75C54190E628 /* MainPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4F1570A09C3EFA7ADF9B8B27 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				85E1DCF09301F1796AD453A0 /* MainRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6875C4EBBC286750E74D1C99 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7CA15D701B9621F49B74960E /* MainInteractorInput.swift */,
+				EA6D53322140E1C67676BB4C /* MainInteractorOutput.swift */,
+				D3AF0B21B0B784F64F94663A /* MainInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6E5CC4BF00D74FC29C096832 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BECAA9677BA0D5989BE681A9 /* TrainingsListInteractorInput.swift */,
+				AAF603F99CF4427F4BB7FD69 /* TrainingsListInteractorOutput.swift */,
+				A4B9EE8C7769F01A4C37B402 /* TrainingsListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		6FB395FB9D6FFCA01807AAF9 /* TrainingsList */ = {
+			isa = PBXGroup;
+			children = (
+				7E38049DE6A73635EB3B90F1 /* Configurator */,
+				C133BCD7BDD9304EF6535ED2 /* View */,
+				8202C7ED0D1976E1ECD6D55B /* Interactor */,
+				FEFB3F91B018FDD006F2A43D /* Presenter */,
+				F837D001717F53BCA141950B /* Router */,
+			);
+			path = TrainingsList;
+			sourceTree = "<group>";
+		};
+		7871773FC20DCA8565AF5DFE /* TrainingsList */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7090358FF7AAAE36C2EA6 /* View */,
+				AAEFE77B4029FE753039273D /* Presenter */,
+				6E5CC4BF00D74FC29C096832 /* Interactor */,
+				85B04B72A27E3DED7408EA94 /* Router */,
+				D02F8380FC10ADA9627E22BE /* Configurator */,
+			);
+			path = TrainingsList;
+			sourceTree = "<group>";
+		};
 		7DBC74592173C9E900C48D16 = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +258,12 @@
 			isa = PBXGroup;
 			children = (
 				7DBC74652173C9E900C48D16 /* AppDelegate.swift */,
-				7DBC74672173C9E900C48D16 /* ViewController.swift */,
-				7DBC74692173C9E900C48D16 /* Main.storyboard */,
 				7DBC746F2173C9EA00C48D16 /* Assets.xcassets */,
 				7DBC74712173C9EA00C48D16 /* LaunchScreen.storyboard */,
 				7DBC74742173C9EA00C48D16 /* Info.plist */,
 				7DBC746C2173C9E900C48D16 /* selftrainer.xcdatamodeld */,
+				DB99F5440A96BD1D120DCEF1 /* Main */,
+				7DBC74972173D1A300C48D16 /* Editor */,
 			);
 			path = selftrainer;
 			sourceTree = "<group>";
@@ -115,6 +273,8 @@
 			children = (
 				7DBC747D2173C9EA00C48D16 /* selftrainerTests.swift */,
 				7DBC747F2173C9EA00C48D16 /* Info.plist */,
+				AB42FE1CBC9E829A419B188E /* Main */,
+				7DBC74982173D32900C48D16 /* Editor */,
 			);
 			path = selftrainerTests;
 			sourceTree = "<group>";
@@ -126,6 +286,172 @@
 				7DBC748A2173C9EA00C48D16 /* Info.plist */,
 			);
 			path = selftrainerUITests;
+			sourceTree = "<group>";
+		};
+		7DBC74962173D05700C48D16 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7DBC74692173C9E900C48D16 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7DBC74972173D1A300C48D16 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				7871773FC20DCA8565AF5DFE /* TrainingsList */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		7DBC74982173D32900C48D16 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				6FB395FB9D6FFCA01807AAF9 /* TrainingsList */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		7DBC74992173D33E00C48D16 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7DBC749A2173D38600C48D16 /* TrainingsList.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7E38049DE6A73635EB3B90F1 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				79147DE3A558F4C7A69965A0 /* TrainingsListConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		8202C7ED0D1976E1ECD6D55B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AD2E64031C7907587C7AE349 /* TrainingsListInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		85B04B72A27E3DED7408EA94 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				69A946FF6FEB2A3B1CC631DF /* TrainingsListRouterInput.swift */,
+				0151DD90F2D87F2D07BB1774 /* TrainingsListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8B7B6C47F5A9449F1E155007 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				5BF8CF009DFC568FE6705B22 /* MainConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		AAEFE77B4029FE753039273D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				45446E3361BB213179B37C5C /* TrainingsListModuleInput.swift */,
+				30F9A403C68B40D4D7B6A75B /* TrainingsListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AB42FE1CBC9E829A419B188E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B6C47F5A9449F1E155007 /* Configurator */,
+				3B1E3BD57B2B4007357FBE20 /* View */,
+				FA57E7792AD8AF017225D906 /* Interactor */,
+				3B5D1BEA39024F885975DFFC /* Presenter */,
+				4F1570A09C3EFA7ADF9B8B27 /* Router */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C133BCD7BDD9304EF6535ED2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53EA475EDF30AFBBD8F46D29 /* TrainingsListViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D02F8380FC10ADA9627E22BE /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				B2F3F05199817A6E4F119DFC /* TrainingsListConfigurator.swift */,
+				3C81186ABD34A8FD503A3906 /* TrainingsListInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		D162B406628950BB6078E5CC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C1F88185EA56145FFDDE5BF7 /* MainModuleInput.swift */,
+				CF2FFD2D89C53946F817D0A8 /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DB99F5440A96BD1D120DCEF1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0E8B3E3AD9EAB512B14F3DDB /* View */,
+				D162B406628950BB6078E5CC /* Presenter */,
+				6875C4EBBC286750E74D1C99 /* Interactor */,
+				FDE72674FBF7BE4BEDD26575 /* Router */,
+				EAC9005710AE0A94EB00D803 /* Configurator */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EAC9005710AE0A94EB00D803 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				FB68989B4EB11A906FD39A70 /* MainConfigurator.swift */,
+				27C1D4D46C88898D7B75C6E6 /* MainInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F837D001717F53BCA141950B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				81E78F792B5B00EDCB2D2FB6 /* TrainingsListRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FA57E7792AD8AF017225D906 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				73B1C06EA816097E7E8F2C28 /* MainInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FDE72674FBF7BE4BEDD26575 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4FB3ADBDFA2BB36FA3CE9EBD /* MainRouterInput.swift */,
+				9723693EF8843ECB598D70B3 /* MainRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FEFB3F91B018FDD006F2A43D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B60481D4752A9677E0960049 /* TrainingsListPresenterTests.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,19 +522,22 @@
 				TargetAttributes = {
 					7DBC74612173C9E900C48D16 = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 					};
 					7DBC74782173C9EA00C48D16 = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 7DBC74612173C9E900C48D16;
 					};
 					7DBC74832173C9EA00C48D16 = {
 						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 7DBC74612173C9E900C48D16;
 					};
 				};
 			};
 			buildConfigurationList = 7DBC745D2173C9E900C48D16 /* Build configuration list for PBXProject "selftrainer" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -234,6 +563,7 @@
 			files = (
 				7DBC74732173C9EA00C48D16 /* LaunchScreen.storyboard in Resources */,
 				7DBC74702173C9EA00C48D16 /* Assets.xcassets in Resources */,
+				7DBC749B2173D38600C48D16 /* TrainingsList.storyboard in Resources */,
 				7DBC746B2173C9E900C48D16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +589,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DBC74682173C9E900C48D16 /* ViewController.swift in Sources */,
 				7DBC746E2173C9E900C48D16 /* selftrainer.xcdatamodeld in Sources */,
 				7DBC74662173C9E900C48D16 /* AppDelegate.swift in Sources */,
+				6BAB9CDF55D0AFB7D2577AAC /* MainViewInput.swift in Sources */,
+				552390B454C5C22B68D7DFFE /* MainViewOutput.swift in Sources */,
+				8A0CEDAD071802691E9F4336 /* MainViewController.swift in Sources */,
+				FC176F552E3996BBBEA895A2 /* MainModuleInput.swift in Sources */,
+				11A616D8FC0642BF3FD5A026 /* MainPresenter.swift in Sources */,
+				4091D6B2D66C63EE66F484FE /* MainInteractorInput.swift in Sources */,
+				758964F953593E1ED9581151 /* MainInteractorOutput.swift in Sources */,
+				C2E85C1B9CAB459C33F2E8DF /* MainInteractor.swift in Sources */,
+				76F5ED83F900A52F5753A677 /* MainRouterInput.swift in Sources */,
+				BB878043388B7EDC3B373136 /* MainRouter.swift in Sources */,
+				41D680918F2C8E38F49F8EA9 /* MainConfigurator.swift in Sources */,
+				3B2525A132B057BC7838D7D7 /* MainInitializer.swift in Sources */,
+				74E7808E07A895ACC7831D9F /* TrainingsListViewInput.swift in Sources */,
+				346CC34AFE8CFFE350787C47 /* TrainingsListViewOutput.swift in Sources */,
+				6E96F402EF8DA2A19F906A0C /* TrainingsListViewController.swift in Sources */,
+				E645D4CFF1E9BFA712AC6D29 /* TrainingsListModuleInput.swift in Sources */,
+				FF47A2DC41BB6DC259427FA3 /* TrainingsListPresenter.swift in Sources */,
+				637FCEC2159B90D9A46EDD9C /* TrainingsListInteractorInput.swift in Sources */,
+				878602BEA095E83CA15B2B49 /* TrainingsListInteractorOutput.swift in Sources */,
+				8DEA3B99D63AB26A26455030 /* TrainingsListInteractor.swift in Sources */,
+				97ECF114F563E73EE7D64E17 /* TrainingsListRouterInput.swift in Sources */,
+				D5A1EFE099253A78F8AC239A /* TrainingsListRouter.swift in Sources */,
+				E814B6F8F6C34272503073E6 /* TrainingsListConfigurator.swift in Sources */,
+				AA59C07CABBD84039CA7BC53 /* TrainingsListInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +623,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DBC747E2173C9EA00C48D16 /* selftrainerTests.swift in Sources */,
+				C998FF43B5ABD46119989235 /* MainConfiguratorTests.swift in Sources */,
+				84760B91C23527006C05959B /* MainViewTests.swift in Sources */,
+				53585228B38ADC5648546392 /* MainInteractorTests.swift in Sources */,
+				1A0D14BC9A0EC6AD6166B076 /* MainPresenterTests.swift in Sources */,
+				4F55F597E5CFAE22A46D63F7 /* MainRouterTests.swift in Sources */,
+				36295F8C668726D2D1A87F5F /* TrainingsListConfiguratorTests.swift in Sources */,
+				80F6B83EDD804090DEE704CB /* TrainingsListViewTests.swift in Sources */,
+				6B83F742B93BAE2205DFC739 /* TrainingsListInteractorTests.swift in Sources */,
+				838E186B4F0AB2420D2B183B /* TrainingsListPresenterTests.swift in Sources */,
+				7BC70BCC06CC918172FA0EA3 /* TrainingsListRouterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,8 +789,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -439,14 +801,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KW8XLSK27E;
 				INFOPLIST_FILE = selftrainer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.selftrainer;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.selftrainerapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,14 +817,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KW8XLSK27E;
 				INFOPLIST_FILE = selftrainer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.selftrainer;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.selftrainerapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -476,11 +834,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KW8XLSK27E;
 				INFOPLIST_FILE = selftrainerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.selftrainerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -497,11 +851,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KW8XLSK27E;
 				INFOPLIST_FILE = selftrainerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.selftrainerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -517,11 +867,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KW8XLSK27E;
 				INFOPLIST_FILE = selftrainerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.selftrainerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -537,11 +883,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KW8XLSK27E;
 				INFOPLIST_FILE = selftrainerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorbogatyrev.selftrainerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

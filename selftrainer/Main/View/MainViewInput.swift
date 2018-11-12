@@ -1,0 +1,17 @@
+//
+//  MainMainViewInput.swift
+//  selftrainer
+//
+//  Created by victorbogatyrev on 14/10/2018.
+//  Copyright © 2018 victorbogatyrev. All rights reserved.
+//
+
+protocol MainViewInput: class {
+
+    /**
+        @author victorbogatyrev
+        Setup initial state of the view
+    */
+
+    func setupInitialState()
+}
